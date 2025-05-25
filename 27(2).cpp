@@ -42,7 +42,7 @@ void number_col(double matr[M][N], const char* name) {
             else
                 len = 1;
             if (len > mlen)
-                len = len, 
+                mlen = len, 
                 col = j;
         }
     }
