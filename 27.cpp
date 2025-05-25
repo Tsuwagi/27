@@ -1,6 +1,6 @@
+//Обчислити елементи вектора як суми елементів парних рядків матриці
+
 #include <iostream>
-#include <stdio.h>
-#include <stdlib.h>
 #include <string.h>
 using namespace std;
 
