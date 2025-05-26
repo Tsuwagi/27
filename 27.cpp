@@ -28,10 +28,13 @@ void create_matrix(double matr[M][N], const char* name) {
     fclose(f);
 }
 
-void create_vector(double matr[M][N], double vekt[N]) {
-    for (int i = 1; i < M; i += 2 {
-        vekt[j] = 0;
-        for (int j = 0; j < N; j++) { 
+void create_vector(double matr[M][N], double vekt[N]) 
+   
+    for (int j = 0; j < N; j++){
+        vekt[j] = 0;}
+
+    for (int i = 1; i < M; i += 2) {
+        for (int j = 0; j < N; j++) {
             vekt[j] += matr[i][j];
         }
     }
