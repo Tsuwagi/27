@@ -36,11 +36,9 @@ void create_vector(double matr[M][N], double vekt[N]) {
         }
     }
 
-    cout << "\nВектор — сума елементів парних рядків:\n";
     for (int j = 0; j < N; j++) {
         cout << vekt[j] << "\t";
     }
-    cout << endl;
 }
 
 int main() {
