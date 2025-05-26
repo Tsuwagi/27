@@ -32,12 +32,12 @@ void create_vector(double matr[M][N], double vekt[N]) {
     for (int i = 1; i < M; i += 2 {
         vekt[j] = 0;
         for (int j = 0; j < N; j++) { 
-            vekt[j] += matr[i][j];
+            vekt[i] += matr[i][j];
         }
     }
 
     for (int j = 0; j < N; j++) {
-        cout << vekt[j] << "\t";
+        cout << vekt[i] << "\t";
     }
 }
 
